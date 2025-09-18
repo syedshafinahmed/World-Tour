@@ -12,7 +12,7 @@ const Country = ({country, handleVisitedCountries}) => {
         // }
 
         setVisited(!visited);
-        handleVisitedCountries();
+        handleVisitedCountries(country);
 
         // setVisited(visited ? false : true);
     }
